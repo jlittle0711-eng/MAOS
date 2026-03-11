@@ -1,0 +1,7 @@
+maos_env/
+index/
+documents/
+repos/
+__pycache__/
+*.pyc
+*.log
