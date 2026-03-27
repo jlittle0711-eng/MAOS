@@ -1,13 +1,28 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Local databases
+# Virtual env
+venv/
+.env/
+
+# Data / runtime
 *.db
-
-# Logs
+*.sqlite
 *.log
+*.json
 
-# OS files
+# Vector / AI artifacts
+*.bin
+vector_store/
+faiss_index/
+
+# OS junk
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
